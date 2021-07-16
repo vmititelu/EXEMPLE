@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method = "POST">
+        First Name <input type = "text" name = "First Name" placeholder="For example: John" required> <br>
+        Last Name <input type = "text" name = "Last Name"> <br>
+        E-mail <input type = "email" name = "email"> <br>
+        Password <input type = "password " name = "password"> <br>
+
+        Gen
+        <input type="radio" value = "M" name = "gender">M
+        <input type="radio" value = "F" name = "gender">F
+        <br>
+
+        Studii:
+        <br>
+        <input type="checkbox" name="graduate[]" value = "medii"> Medii <br>
+        <input type="checkbox" name="graduate[]" value = "licenta"> Licenta <br>
+
+        Oras:<br>
+        <select name="city">
+            <option value="Chisinau">Chisinau</option>
+            <option value="Balti">Balti</option>
+            <option value="Falesti">Falesti</option>
+        </select>
+        <br>
+
+        Data nasterii:
+        <input type = "date" name="birthday">
+        <br>
+
+        Disponibil pentru un sunet
+        <input time="time" name="call_time">
+        <br>
+
+        Numar de telefon
+        <input type="tel" name="phone">
+        <br>
+
+        Biografie
+        <textarea name="biography" cols="30" rows="10"></textarea>
+        <br>
+
+        Poze buletin:
+        <input type="file" name="card_id">
+        <br>
+
+        Salariul dorit:
+        <input type="number" name="salary" value="25000" readonly>
+        <br>
+
+        Varsta:
+        <input type="range" name="age" min="18" max="99" value="30" disabled>
+        <br>
+
+        Culoarea parului:
+        <input type="color" name="hair_color">
+        <br>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Register">
+
+    </form>
+</body>
+</html>
