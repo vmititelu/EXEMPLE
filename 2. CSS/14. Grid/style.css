@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px;
+}
+
+.containerGridTemplateColumnAutoWidth{
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+}
+
+.item{
+    border: 1px solid red;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    height: 400px;
+}
+
+.table .cell{
+    border: 1px solid red;
+}
+
+.table .cell:nth-child(even){
+    background-color: black;
+}

@@ -1,0 +1,45 @@
+.square{
+    width: 100px;
+    height: 100px;
+    border: 1px solid lightgray;
+}
+
+.color-name{
+    background-color: indigo;
+}
+
+.color-rgb{
+    background-color: rgb(100,0,255);
+}
+
+.color-rgba{
+    background-color: rgba(100,0,255, 1);
+}
+
+.color-hex{
+    background-color: #FFFF00;
+}
+
+.color-hex-alpha{
+    background-color: #FFFF0099;
+}
+
+.dimensions-inches{
+    width: 2in;
+    height: 1in;
+}
+
+.dimensions-cm{
+    width: 2cm;
+    height: 1cm;
+}
+
+.dimensions-px{
+    width: 10px;
+    height: 10px;
+}
+
+.dimensions-percent{
+    width: 40%;
+    height: 30%;
+}

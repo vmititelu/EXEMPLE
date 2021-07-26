@@ -1,0 +1,19 @@
+.fontSize{
+    font-family: 44px;
+    border: 1px solid #000;
+}
+
+.fontFamily{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #000;
+}
+
+.fontColor{
+    color: blue;
+    border: 1px solid #000;
+}
+
+.fontStyle{
+    font-style: :italic;
+    border: 1px solid #000;
+}

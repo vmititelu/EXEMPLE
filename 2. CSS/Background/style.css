@@ -1,0 +1,36 @@
+.square{
+    width: 150px;
+    height: 300px;
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid red;
+    
+}
+
+.backgroundColor{
+    background-image: url(img/image.jpg);
+}
+
+.backgroundImage{
+    background-image: url(img/image.jpg);
+}
+
+.backgroundImageNoRepeat{
+    background-image: url;
+    background-repeat: no-repeat;
+}
+
+.backgroundImageRepeatX{
+    background-image: url;
+    background-repeat: repeat-x;
+}
+
+.backgroundImageRepeatY{
+    background-image: url;
+    background-repeat: repeat-y;
+}
+
+.backgroundSizeAuto{
+    background-image: url;
+    background-size: auto;
+}

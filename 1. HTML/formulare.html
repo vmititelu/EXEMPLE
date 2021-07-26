@@ -11,7 +11,7 @@
         First Name <input type = "text" name = "First Name" placeholder="For example: John" required> <br>
         Last Name <input type = "text" name = "Last Name"> <br>
         E-mail <input type = "email" name = "email"> <br>
-        Password <input type = "password " name = "password"> <br>
+        Password <input type = "password" name = "password"> <br>
 
         Gen
         <input type="radio" value = "M" name = "gender">M
@@ -21,13 +21,17 @@
         Studii:
         <br>
         <input type="checkbox" name="graduate[]" value = "medii"> Medii <br>
-        <input type="checkbox" name="graduate[]" value = "licenta"> Licenta <br>
+        <input type="checkbox" name="graduate[]" value = "licenta" checked> Licenta <br>
+        <input type="checkbox" name="graduate[]" value = "masterat"> Masterat <br>
+        <input type="checkbox" name="graduate[]" value = "doctorat"> Doctorat <br>
 
         Oras:<br>
         <select name="city">
             <option value="Chisinau">Chisinau</option>
             <option value="Balti">Balti</option>
             <option value="Falesti">Falesti</option>
+            <option value="Cahul">Cahul</option>
+            <option value="Ungheni">Ungheni</option>
         </select>
         <br>
 
@@ -36,7 +40,7 @@
         <br>
 
         Disponibil pentru un sunet
-        <input time="time" name="call_time">
+        <input type="time" name="call_time">
         <br>
 
         Numar de telefon

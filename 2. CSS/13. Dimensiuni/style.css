@@ -1,0 +1,21 @@
+body{
+    background-color: cadetblue;
+    font-size: 0;
+}
+
+.element{
+    border: 1px solid red;
+    height: 70px;
+    width:300px;
+    display:inline-block;
+}
+
+#special{
+    width: 600px;
+    height: 130px;
+    margin-top: 10px;
+    background-color: crimson;
+    border: 5px dotted yellow;
+    padding-left: 30px;
+    /*border-bottom;*/
+}
